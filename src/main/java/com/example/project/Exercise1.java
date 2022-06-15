@@ -16,7 +16,7 @@ public class Exercise1 {
     public boolean esBalanceado(String s) {
         // Colocar codigo aqui
              MyStack<Character> stack = new LinkedListStack<>();
-        // leemos letra por letra y guardamos los abiertos "("
+        // leemos letra por letra y guardamos los abiertos '('
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
                 stack.push(s.charAt(i));
