@@ -36,7 +36,7 @@ public class LinkedListStack<T extends Comparable<T>> implements MyStack<T> {
 
     public static void main(String[] args) {
 
-        // creación de pila
+        // creacion de pila
         MyStack<Integer> s = new LinkedListStack<Integer>();
 
         // Ejemplo de insercion de elementos en la pila
