@@ -12,5 +12,5 @@ public interface MyStack<T extends Comparable<T>> {
 
     public int size(); // Devuelve el numero de elementos en la pila
 
-    public boolean isEmpty(); // Indica si la pila está vacia
+    public boolean isEmpty(); // Indica si la pila esta vacia
 }
