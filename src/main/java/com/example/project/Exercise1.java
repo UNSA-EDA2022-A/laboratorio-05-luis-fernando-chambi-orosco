@@ -15,14 +15,5 @@ public class Exercise1 {
 
     public boolean esBalanceado(String s) {
         // Colocar codigo aqui
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
-                stack.push(s.charAt(i));
-            }
-            if (stack.top()=='(' && s.charAt(i) == ')' || stack.top()=='[' && s.charAt(i) == ']'|| stack.top()=='{' && s.charAt(i) == '}') {
-                    stack.pop();
-                }
-        }
-        return stack.isEmpty();
-    }
+      
 }
