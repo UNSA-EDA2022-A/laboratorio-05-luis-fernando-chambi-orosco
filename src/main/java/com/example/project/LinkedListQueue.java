@@ -36,7 +36,7 @@ public class LinkedListQueue<T extends Comparable<T>> implements MyQueue<T> {
 
     public static void main(String[] args) {
 
-        // Creación de cola
+        // Creacion de cola
         MyQueue<Integer> q = new LinkedListQueue<Integer>();
 
         // Ejemplo de insercion de elementos en la cola
