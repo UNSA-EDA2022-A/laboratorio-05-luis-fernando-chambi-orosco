@@ -15,5 +15,6 @@ public class Exercise1 {
 
     public boolean esBalanceado(String s) {
         // Colocar codigo aqui
-      
+            return false;
+    }
 }
