@@ -7,7 +7,7 @@ public interface MyStack<T extends Comparable<T>> {
 
     public T pop(); // Elimina y devuelve el valor en la parte superior de la pila
 
-    // Metodos que acceden a la información (sin modificar)
+    // Metodos que acceden a la informacion (sin modificar)
     public T top(); // Devolver valor en la parte superior de la pila
 
     public int size(); // Devuelve el numero de elementos en la pila
