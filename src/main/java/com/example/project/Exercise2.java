@@ -15,20 +15,6 @@ public class Exercise2 {
     public boolean existenDuplicados(String str) {
         MyStack<Character> stack = new LinkedListStack<>();
         // Colocar codigo aqui
-         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) !=')'){
-                stack.push(str.charAt(i));
-            }else{
-                if (stack.top()=='(' ) {
-                    return true;
-                }
-                while (stack.top()!='(' ){
-                    stack.pop();
-                }
-                stack.pop();
-            }
-            
-        }
-        return false;
+      
     }
 }
