@@ -7,7 +7,7 @@ public interface MyQueue<T extends Comparable<T>> {
 
     public T dequeue(); // Elimina y devuelve el valor al principio de la cola
 
-    // Metodos que acceden a la información (sin modificar)
+    // Metodos que acceden a la informacion (sin modificar)
     public T first(); // Valor devuelto al principio de la cola
 
     public int size();// Devuelve el numero de elementos en la cola
