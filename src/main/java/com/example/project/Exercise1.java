@@ -24,4 +24,5 @@ public class Exercise1 {
                 }
         }
         return stack.isEmpty();
+    }
 }
